@@ -10,7 +10,7 @@
 
 import data from './ord.json';
 
-const baseurl = 'https://bin.arnastofnun.is/api/ord/';
+const baseurl = 'https://cors-anywhere.herokuapp.com/https://bin.arnastofnun.is/api/ord/';
 
 const nafnord = ['hestur', 'maður', 'kona', 'hundur', 'flaska', 'glas'];
 
