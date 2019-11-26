@@ -22,11 +22,11 @@ If desired, it is possible to set up the project locally by cloning this reposit
 
 ### Run online
 
-[Heroku link](vantarlinkher).
+[Heroku link](https://maltaekni.herokuapp.com/).
 
 ### Animated demonstration
 
-![](src/public/img/beygingarmyndaleikur.gif)
+![](public/img/beyg-minni.gif)
 
 ### Author
 
