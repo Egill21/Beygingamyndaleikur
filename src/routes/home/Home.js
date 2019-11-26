@@ -1,24 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import { getLectureList } from '../../api';
 
 import Header from '../../components/header/Header';
+import Practices from '../../components/practices/Practices';
 
-export default class Home extends Component {
-
-  state = {
-    lectures: getLectureList(),
+export default function Home() {
+  const handleClick = gamli  => {
+    console.log('whaat')
   }
 
-  render() {
-    const { lectures } = this.state;
-
-    console.log(lectures);
-
-    return (
-      <React.Fragment>
-        <Header category="Vefforritun" title="Fyrirlestrar" />
-      </React.Fragment>
-    );
-  }
+  return (
+    <Fragment>
+      <Practices />
+    </Fragment>
+  )
 }

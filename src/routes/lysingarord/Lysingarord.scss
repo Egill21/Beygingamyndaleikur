@@ -1,0 +1,84 @@
+@import "../../config";
+
+
+.subDIVSL {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  p {
+    font-family: $font-main;
+    font-size: 2rem;
+    color: #d4d4d4;
+  }
+
+  .inputL {
+    width: 300px;
+    border: 2px solid #d4d4d4;
+    background-color: #465b63;
+    color: #d4d4d4;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+
+  .linkL {
+    width: 30%;
+    height: 40px;
+    font-size: 1rem;
+    background: #0f4b63;
+    border: 2px solid #d4d4d4;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    text-align: center;
+
+    button {
+      margin-top: 9px;
+      font-size: 1rem;
+      background: none;
+      border: none;
+      color: #d4d4d4;
+    }
+
+  }
+
+  .newWordButton {
+    width: 30%;
+    height: 40px;
+    font-size: 1rem;
+    background: #0f4b63;
+    border: 2px solid #d4d4d4;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    color: #d4d4d4;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #116d91;
+  }
+
+  .linkL:hover {
+    background:#116d91;
+  }
+
+  .correct {
+    border-color: #00ff00;
+  }
+
+}
+
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;;
+  justify-content: space-between;
+
+  width: 600px;
+	height: 500px;
+	// background-color: red;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
